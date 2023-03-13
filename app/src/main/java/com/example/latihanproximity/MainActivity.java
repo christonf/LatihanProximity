@@ -125,8 +125,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     private void changeBackgroundColor(float currentValue) {
         ConstraintLayout layout = findViewById(R.id.layout_constraint);
-        if(currentValue <= 500 &&  currentValue >= 100) layout.setBackgroundColor(Color.RED);
-        else if(currentValue <100 && currentValue > 0) layout.setBackgroundColor(Color.BLUE);
+        if(currentValue <= 40000 &&  currentValue >= 15000) layout.setBackgroundColor(Color.RED);
+        else if(currentValue <15000 && currentValue > 0) layout.setBackgroundColor(Color.BLUE);
     }
 
     @Override
